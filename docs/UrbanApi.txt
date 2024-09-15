@@ -1,0 +1,58 @@
+# Get venue Gratia Fintess Studio
+curl 'https://api.urbansportsclub.com/api/v6/venues/24015' \
+-H 'accept-language: en;q=1.0' \
+-H 'user-agent: USCAPP/5.7.1 (android; 34; Scale/2.625)' \
+-H 'device-token: 153fcc336a831cad' \
+-H 'device-name: Pixel 7a' \
+-H 'Host: api.urbansportsclub.com' \
+-H 'Connection: Keep-Alive' \
+--cookie 'PHPSESSID=38304f92276caa4507d0d87600c61864' \
+--proxy http://localhost:9090
+
+# Get schedule summary
+curl 'https://api.urbansportsclub.com/api/v6/courses/summary?locationId=24015&startDate=2024-09-14' \
+-H 'accept-language: en;q=1.0' \
+-H 'user-agent: USCAPP/5.7.1 (android; 34; Scale/2.625)' \
+-H 'device-token: 153fcc336a831cad' \
+-H 'device-name: Pixel 7a' \
+-H 'Host: api.urbansportsclub.com' \
+-H 'Connection: Keep-Alive' \
+--cookie 'PHPSESSID=38304f92276caa4507d0d87600c61864' \
+--proxy http://localhost:9090
+
+# Get schedule for a day
+curl 'https://api.urbansportsclub.com/api/v6/courses?forDurationOfDays=1&query=&pageSize=100&page=1&locationId=24015&startDate=2024-09-27' \
+-H 'accept-language: en;q=1.0' \
+-H 'user-agent: USCAPP/5.7.1 (android; 34; Scale/2.625)' \
+-H 'device-token: 153fcc336a831cad' \
+-H 'device-name: Pixel 7a' \
+-H 'Host: api.urbansportsclub.com' \
+-H 'Connection: Keep-Alive' \
+--cookie 'PHPSESSID=38304f92276caa4507d0d87600c61864' \
+--proxy http://localhost:9090
+
+# Login
+curl 'https://api.urbansportsclub.com/api/v6/auth/token' \
+-X POST \
+-H 'accept-language: en;q=1.0' \
+-H 'user-agent: USCAPP/5.7.1 (android; 34; Scale/2.625)' \
+-H 'device-token: 153fcc336a831cad' \
+-H 'device-name: Pixel 7a' \
+-H 'Host: api.urbansportsclub.com' \
+-H 'Connection: Keep-Alive' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+--cookie 'PHPSESSID=38304f92276caa4507d0d87600c61864' \
+--data-raw 'client_id=86093282310&client_secret=1BJX3V5HWUYVCZ77S1TY9L1PSWAXA3K95ZMUC3ZRBAP3M696ZF4SD3QW5VBNU81H&grant_type=password&username=franconecat%40gmail.com&password=Passw0rdNuev0%21' \
+--proxy http://localhost:9090
+
+# Bookings
+curl 'https://api.urbansportsclub.com/api/v6/bookings?type=schedule&pageSize=20&page=1' \
+-H 'accept-language: en;q=1.0' \
+-H 'user-agent: USCAPP/5.7.1 (android; 34; Scale/2.625)' \
+-H 'device-token: 153fcc336a831cad' \
+-H 'device-name: Pixel 7a' \
+-H 'authorization: Bearer 3b3377eec2bf94ac39fda09b448a4e2d48e3dfbd37422dcc8523d0c1a591c59c' \
+-H 'Host: api.urbansportsclub.com' \
+-H 'Connection: Keep-Alive' \
+--cookie 'PHPSESSID=38304f92276caa4507d0d87600c61864' \
+--proxy http://localhost:9090

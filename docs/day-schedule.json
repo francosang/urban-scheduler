@@ -1,0 +1,486 @@
+{
+    "success": "true",
+    "data": {
+      "classes": [
+        {
+          "id": 74081542,
+          "date": "2024-09-27",
+          "title": "Hiit and Core",
+          "startTime": "07:15:00",
+          "startDateTimeUTC": "2024-09-27T07:15:00+02:00",
+          "endTime": "08:00:00",
+          "endDateTimeUTC": "2024-09-27T08:00:00+02:00",
+          "venue": {
+            "id": 24015,
+            "name": "Gratia Fitness Studio",
+            "location": {
+              "displayAddress": "Barcelona - El Camp d'en Grassot i Gràcia Nova",
+              "city": {
+                "id": 56,
+                "name": "Barcelona"
+              },
+              "district": {
+                "id": 3854,
+                "name": "El Camp d'en Grassot i Gràcia Nova",
+                "area": "Barcelona"
+              },
+              "latitude": 41.409576100000002,
+              "longitude": 2.1706123000000002,
+              "postalCode": "08025",
+              "address": "Travessera de Gracia, 395",
+              "country": {
+                "code": "ES"
+              }
+            },
+            "phone": "",
+            "website": "https://gratiastudio.com/",
+            "openingHoursText": "",
+            "bookingLimitsText": "M - podrán asistir a Gratia Fitness Studio 4 veces al mes.\r\n\r\nL y XL - podrán asistir a Gratia Fitness Studio 8 veces al mes.\r\n\r\nPILATES REFORMER\r\nL y XL - podrán asistir a Gratia Fitness Studio 4 veces al mes.",
+            "importantInfo": "¡Reserva tu clase directamente a través de la aplicación de Urban Sports Club! Por favor, ten en cuenta que esta es una reserva vinculante. Si necesitas cancelar una clase, por favor hazlo dentro del período de cancelación.",
+            "additionalInformation": "",
+            "allowedBusinessTypes": [
+              "b2c",
+              "b2b"
+            ]
+          },
+          "category": {
+            "id": 233,
+            "name": "Functional Training",
+            "icon": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2FcategoryIcon_80x80_icon-category-functional-training.png?alt=media"
+          },
+          "extraPriceDescriptionText": "",
+          "covers": [
+            {
+              "original": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Foriginal_2048x1152_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065043777&alt=media",
+              "thumbnail": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Fthumbnail_150x150_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065246992&alt=media"
+            }
+          ],
+          "planTypes": [
+            "M",
+            "L",
+            "XL"
+          ],
+          "planTypesB2B": [
+            "M",
+            "L",
+            "XL"
+          ],
+          "external": true,
+          "serviceType": "event",
+          "bookingType": "confirmation_required",
+          "types": [
+            "onsite"
+          ],
+          "isOnline": 0,
+          "isPlusCheckin": 0,
+          "deleted": 0,
+          "highlight": 1,
+          "booking": null,
+          "bookable": 1,
+          "minimumNumber": -1,
+          "maximumNumber": 2,
+          "freeSpots": 2
+        },
+        {
+          "id": 74081956,
+          "date": "2024-09-27",
+          "title": "Fit Reformer",
+          "startTime": "08:00:00",
+          "startDateTimeUTC": "2024-09-27T08:00:00+02:00",
+          "endTime": "09:00:00",
+          "endDateTimeUTC": "2024-09-27T09:00:00+02:00",
+          "venue": {
+            "id": 24015,
+            "name": "Gratia Fitness Studio",
+            "location": {
+              "displayAddress": "Barcelona - El Camp d'en Grassot i Gràcia Nova",
+              "city": {
+                "id": 56,
+                "name": "Barcelona"
+              },
+              "district": {
+                "id": 3854,
+                "name": "El Camp d'en Grassot i Gràcia Nova",
+                "area": "Barcelona"
+              },
+              "latitude": 41.409576100000002,
+              "longitude": 2.1706123000000002,
+              "postalCode": "08025",
+              "address": "Travessera de Gracia, 395",
+              "country": {
+                "code": "ES"
+              }
+            },
+            "phone": "",
+            "website": "https://gratiastudio.com/",
+            "openingHoursText": "",
+            "bookingLimitsText": "M - podrán asistir a Gratia Fitness Studio 4 veces al mes.\r\n\r\nL y XL - podrán asistir a Gratia Fitness Studio 8 veces al mes.\r\n\r\nPILATES REFORMER\r\nL y XL - podrán asistir a Gratia Fitness Studio 4 veces al mes.",
+            "importantInfo": "¡Reserva tu clase directamente a través de la aplicación de Urban Sports Club! Por favor, ten en cuenta que esta es una reserva vinculante. Si necesitas cancelar una clase, por favor hazlo dentro del período de cancelación.",
+            "additionalInformation": "",
+            "allowedBusinessTypes": [
+              "b2c",
+              "b2b"
+            ]
+          },
+          "category": {
+            "id": 344,
+            "name": "Pilates Reformer",
+            "icon": ""
+          },
+          "extraPriceDescriptionText": "",
+          "covers": [
+            {
+              "original": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Foriginal_2048x1152_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065043777&alt=media",
+              "thumbnail": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Fthumbnail_150x150_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065246992&alt=media"
+            }
+          ],
+          "planTypes": [
+            "L",
+            "XL"
+          ],
+          "planTypesB2B": [
+            "L",
+            "XL"
+          ],
+          "external": true,
+          "serviceType": "event",
+          "bookingType": "confirmation_required",
+          "types": [
+            "onsite"
+          ],
+          "isOnline": 0,
+          "isPlusCheckin": 0,
+          "deleted": 0,
+          "highlight": 1,
+          "booking": null,
+          "bookable": 0,
+          "minimumNumber": -1,
+          "maximumNumber": 1,
+          "freeSpots": 0
+        },
+        {
+          "id": 74079754,
+          "date": "2024-09-27",
+          "title": "Barre",
+          "startTime": "09:30:00",
+          "startDateTimeUTC": "2024-09-27T09:30:00+02:00",
+          "endTime": "10:15:00",
+          "endDateTimeUTC": "2024-09-27T10:15:00+02:00",
+          "venue": {
+            "id": 24015,
+            "name": "Gratia Fitness Studio",
+            "location": {
+              "displayAddress": "Barcelona - El Camp d'en Grassot i Gràcia Nova",
+              "city": {
+                "id": 56,
+                "name": "Barcelona"
+              },
+              "district": {
+                "id": 3854,
+                "name": "El Camp d'en Grassot i Gràcia Nova",
+                "area": "Barcelona"
+              },
+              "latitude": 41.409576100000002,
+              "longitude": 2.1706123000000002,
+              "postalCode": "08025",
+              "address": "Travessera de Gracia, 395",
+              "country": {
+                "code": "ES"
+              }
+            },
+            "phone": "",
+            "website": "https://gratiastudio.com/",
+            "openingHoursText": "",
+            "bookingLimitsText": "M - podrán asistir a Gratia Fitness Studio 4 veces al mes.\r\n\r\nL y XL - podrán asistir a Gratia Fitness Studio 8 veces al mes.\r\n\r\nPILATES REFORMER\r\nL y XL - podrán asistir a Gratia Fitness Studio 4 veces al mes.",
+            "importantInfo": "¡Reserva tu clase directamente a través de la aplicación de Urban Sports Club! Por favor, ten en cuenta que esta es una reserva vinculante. Si necesitas cancelar una clase, por favor hazlo dentro del período de cancelación.",
+            "additionalInformation": "",
+            "allowedBusinessTypes": [
+              "b2c",
+              "b2b"
+            ]
+          },
+          "category": {
+            "id": 1378,
+            "name": "Barre",
+            "icon": ""
+          },
+          "extraPriceDescriptionText": "",
+          "covers": [
+            {
+              "original": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Foriginal_2048x1152_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065043777&alt=media",
+              "thumbnail": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Fthumbnail_150x150_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065246992&alt=media"
+            }
+          ],
+          "planTypes": [
+            "Health",
+            "M",
+            "L",
+            "XL"
+          ],
+          "planTypesB2B": [
+            "Health",
+            "M",
+            "L",
+            "XL"
+          ],
+          "external": true,
+          "serviceType": "event",
+          "bookingType": "confirmation_required",
+          "types": [
+            "onsite"
+          ],
+          "isOnline": 0,
+          "isPlusCheckin": 0,
+          "deleted": 0,
+          "highlight": 1,
+          "booking": null,
+          "bookable": 1,
+          "minimumNumber": -1,
+          "maximumNumber": 5,
+          "freeSpots": 5
+        },
+        {
+          "id": 74079266,
+          "date": "2024-09-27",
+          "title": "Barre",
+          "startTime": "09:30:00",
+          "startDateTimeUTC": "2024-09-27T09:30:00+02:00",
+          "endTime": "10:15:00",
+          "endDateTimeUTC": "2024-09-27T10:15:00+02:00",
+          "venue": {
+            "id": 24015,
+            "name": "Gratia Fitness Studio",
+            "location": {
+              "displayAddress": "Barcelona - El Camp d'en Grassot i Gràcia Nova",
+              "city": {
+                "id": 56,
+                "name": "Barcelona"
+              },
+              "district": {
+                "id": 3854,
+                "name": "El Camp d'en Grassot i Gràcia Nova",
+                "area": "Barcelona"
+              },
+              "latitude": 41.409576100000002,
+              "longitude": 2.1706123000000002,
+              "postalCode": "08025",
+              "address": "Travessera de Gracia, 395",
+              "country": {
+                "code": "ES"
+              }
+            },
+            "phone": "",
+            "website": "https://gratiastudio.com/",
+            "openingHoursText": "",
+            "bookingLimitsText": "M - podrán asistir a Gratia Fitness Studio 4 veces al mes.\r\n\r\nL y XL - podrán asistir a Gratia Fitness Studio 8 veces al mes.\r\n\r\nPILATES REFORMER\r\nL y XL - podrán asistir a Gratia Fitness Studio 4 veces al mes.",
+            "importantInfo": "¡Reserva tu clase directamente a través de la aplicación de Urban Sports Club! Por favor, ten en cuenta que esta es una reserva vinculante. Si necesitas cancelar una clase, por favor hazlo dentro del período de cancelación.",
+            "additionalInformation": "",
+            "allowedBusinessTypes": [
+              "b2c",
+              "b2b"
+            ]
+          },
+          "category": {
+            "id": 1378,
+            "name": "Barre",
+            "icon": ""
+          },
+          "extraPriceDescriptionText": "",
+          "covers": [
+            {
+              "original": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Foriginal_2048x1152_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065043777&alt=media",
+              "thumbnail": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Fthumbnail_150x150_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065246992&alt=media"
+            }
+          ],
+          "planTypes": [
+            "Health",
+            "M",
+            "L",
+            "XL"
+          ],
+          "planTypesB2B": [
+            "Health",
+            "M",
+            "L",
+            "XL"
+          ],
+          "external": true,
+          "serviceType": "event",
+          "bookingType": "confirmation_required",
+          "types": [
+            "onsite"
+          ],
+          "isOnline": 0,
+          "isPlusCheckin": 0,
+          "deleted": 0,
+          "highlight": 1,
+          "booking": null,
+          "bookable": 1,
+          "minimumNumber": -1,
+          "maximumNumber": 5,
+          "freeSpots": 5
+        },
+        {
+          "id": 74068190,
+          "date": "2024-09-27",
+          "title": "Pilates Power",
+          "startTime": "18:00:00",
+          "startDateTimeUTC": "2024-09-27T18:00:00+02:00",
+          "endTime": "18:45:00",
+          "endDateTimeUTC": "2024-09-27T18:45:00+02:00",
+          "venue": {
+            "id": 24015,
+            "name": "Gratia Fitness Studio",
+            "location": {
+              "displayAddress": "Barcelona - El Camp d'en Grassot i Gràcia Nova",
+              "city": {
+                "id": 56,
+                "name": "Barcelona"
+              },
+              "district": {
+                "id": 3854,
+                "name": "El Camp d'en Grassot i Gràcia Nova",
+                "area": "Barcelona"
+              },
+              "latitude": 41.409576100000002,
+              "longitude": 2.1706123000000002,
+              "postalCode": "08025",
+              "address": "Travessera de Gracia, 395",
+              "country": {
+                "code": "ES"
+              }
+            },
+            "phone": "",
+            "website": "https://gratiastudio.com/",
+            "openingHoursText": "",
+            "bookingLimitsText": "M - podrán asistir a Gratia Fitness Studio 4 veces al mes.\r\n\r\nL y XL - podrán asistir a Gratia Fitness Studio 8 veces al mes.\r\n\r\nPILATES REFORMER\r\nL y XL - podrán asistir a Gratia Fitness Studio 4 veces al mes.",
+            "importantInfo": "¡Reserva tu clase directamente a través de la aplicación de Urban Sports Club! Por favor, ten en cuenta que esta es una reserva vinculante. Si necesitas cancelar una clase, por favor hazlo dentro del período de cancelación.",
+            "additionalInformation": "",
+            "allowedBusinessTypes": [
+              "b2c",
+              "b2b"
+            ]
+          },
+          "category": {
+            "id": 4,
+            "name": "Pilates",
+            "icon": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2FcategoryIcon_80x80_icon-category-pilates.png?alt=media"
+          },
+          "extraPriceDescriptionText": "",
+          "covers": [
+            {
+              "original": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Foriginal_2048x1152_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065043777&alt=media",
+              "thumbnail": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Fthumbnail_150x150_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065246992&alt=media"
+            }
+          ],
+          "planTypes": [
+            "M",
+            "L",
+            "XL"
+          ],
+          "planTypesB2B": [
+            "M",
+            "L",
+            "XL"
+          ],
+          "external": true,
+          "serviceType": "event",
+          "bookingType": "confirmation_required",
+          "types": [
+            "onsite"
+          ],
+          "isOnline": 0,
+          "isPlusCheckin": 0,
+          "deleted": 0,
+          "highlight": 1,
+          "booking": null,
+          "bookable": 1,
+          "minimumNumber": -1,
+          "maximumNumber": 2,
+          "freeSpots": 2
+        },
+        {
+          "id": 74071154,
+          "date": "2024-09-27",
+          "title": "Total Body",
+          "startTime": "19:00:00",
+          "startDateTimeUTC": "2024-09-27T19:00:00+02:00",
+          "endTime": "19:45:00",
+          "endDateTimeUTC": "2024-09-27T19:45:00+02:00",
+          "venue": {
+            "id": 24015,
+            "name": "Gratia Fitness Studio",
+            "location": {
+              "displayAddress": "Barcelona - El Camp d'en Grassot i Gràcia Nova",
+              "city": {
+                "id": 56,
+                "name": "Barcelona"
+              },
+              "district": {
+                "id": 3854,
+                "name": "El Camp d'en Grassot i Gràcia Nova",
+                "area": "Barcelona"
+              },
+              "latitude": 41.409576100000002,
+              "longitude": 2.1706123000000002,
+              "postalCode": "08025",
+              "address": "Travessera de Gracia, 395",
+              "country": {
+                "code": "ES"
+              }
+            },
+            "phone": "",
+            "website": "https://gratiastudio.com/",
+            "openingHoursText": "",
+            "bookingLimitsText": "M - podrán asistir a Gratia Fitness Studio 4 veces al mes.\r\n\r\nL y XL - podrán asistir a Gratia Fitness Studio 8 veces al mes.\r\n\r\nPILATES REFORMER\r\nL y XL - podrán asistir a Gratia Fitness Studio 4 veces al mes.",
+            "importantInfo": "¡Reserva tu clase directamente a través de la aplicación de Urban Sports Club! Por favor, ten en cuenta que esta es una reserva vinculante. Si necesitas cancelar una clase, por favor hazlo dentro del período de cancelación.",
+            "additionalInformation": "",
+            "allowedBusinessTypes": [
+              "b2c",
+              "b2b"
+            ]
+          },
+          "category": {
+            "id": 233,
+            "name": "Functional Training",
+            "icon": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2FcategoryIcon_80x80_icon-category-functional-training.png?alt=media"
+          },
+          "extraPriceDescriptionText": "",
+          "covers": [
+            {
+              "original": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Foriginal_2048x1152_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065043777&alt=media",
+              "thumbnail": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Fthumbnail_150x150_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065246992&alt=media"
+            }
+          ],
+          "planTypes": [
+            "M",
+            "L",
+            "XL"
+          ],
+          "planTypesB2B": [
+            "M",
+            "L",
+            "XL"
+          ],
+          "external": true,
+          "serviceType": "event",
+          "bookingType": "confirmation_required",
+          "types": [
+            "onsite"
+          ],
+          "isOnline": 0,
+          "isPlusCheckin": 0,
+          "deleted": 0,
+          "highlight": 1,
+          "booking": null,
+          "bookable": 1,
+          "minimumNumber": -1,
+          "maximumNumber": 2,
+          "freeSpots": 2
+        }
+      ],
+      "classesCount": 6,
+      "freeTrainings": [],
+      "freeTrainingsCount": 0
+    }
+  }

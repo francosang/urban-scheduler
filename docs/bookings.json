@@ -1,0 +1,131 @@
+{
+    "success": "true",
+    "data": [
+      {
+        "id": 62272662,
+        "created": "2024-09-11T11:32:50+02:00",
+        "updated": "2024-09-11T11:32:51+02:00",
+        "status": "CONFIRMED",
+        "codeCheckIn": "",
+        "course": {
+          "id": 73978903,
+          "date": "2024-09-24",
+          "title": "Strength",
+          "isOnline": 0,
+          "types": [
+            "onsite"
+          ],
+          "startTime": "19:00:00",
+          "startDateTimeUTC": "2024-09-24T19:00:00+02:00",
+          "endTime": "19:45:00",
+          "endDateTimeUTC": "2024-09-24T19:45:00+02:00",
+          "venueId": 24015,
+          "venueName": "Gratia Fitness Studio",
+          "venueLat": 41.409576100000002,
+          "venueLong": 2.1706123000000002,
+          "venueFullAddress": "Travessera de Gracia, 395, 08025 Barcelona",
+          "isPlusCheckin": 0,
+          "cityName": "Barcelona",
+          "districtName": "El Camp d'en Grassot i Gràcia Nova",
+          "bookingType": "confirmation_required",
+          "external": true,
+          "serviceType": "event",
+          "category": {
+            "id": 233,
+            "name": "Functional Training",
+            "icon": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2FcategoryIcon_80x80_icon-category-functional-training.png?alt=media"
+          },
+          "covers": [
+            {
+              "original": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Foriginal_2048x1152_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065043777&alt=media",
+              "thumbnail": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Fthumbnail_150x150_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065246992&alt=media"
+            }
+          ]
+        }
+      },
+      {
+        "id": 62272625,
+        "created": "2024-09-11T11:32:12+02:00",
+        "updated": "2024-09-11T11:32:13+02:00",
+        "status": "CONFIRMED",
+        "codeCheckIn": "",
+        "course": {
+          "id": 73941289,
+          "date": "2024-09-23",
+          "title": "Strength",
+          "isOnline": 0,
+          "types": [
+            "onsite"
+          ],
+          "startTime": "19:00:00",
+          "startDateTimeUTC": "2024-09-23T19:00:00+02:00",
+          "endTime": "19:45:00",
+          "endDateTimeUTC": "2024-09-23T19:45:00+02:00",
+          "venueId": 24015,
+          "venueName": "Gratia Fitness Studio",
+          "venueLat": 41.409576100000002,
+          "venueLong": 2.1706123000000002,
+          "venueFullAddress": "Travessera de Gracia, 395, 08025 Barcelona",
+          "isPlusCheckin": 0,
+          "cityName": "Barcelona",
+          "districtName": "El Camp d'en Grassot i Gràcia Nova",
+          "bookingType": "confirmation_required",
+          "external": true,
+          "serviceType": "event",
+          "category": {
+            "id": 233,
+            "name": "Functional Training",
+            "icon": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2FcategoryIcon_80x80_icon-category-functional-training.png?alt=media"
+          },
+          "covers": [
+            {
+              "original": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Foriginal_2048x1152_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065043777&alt=media",
+              "thumbnail": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Fthumbnail_150x150_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065246992&alt=media"
+            }
+          ]
+        }
+      },
+      {
+        "id": 62272411,
+        "created": "2024-09-11T11:27:54+02:00",
+        "updated": "2024-09-11T11:27:55+02:00",
+        "status": "CONFIRMED",
+        "codeCheckIn": "",
+        "course": {
+          "id": 73728755,
+          "date": "2024-09-16",
+          "title": "Strenght",
+          "isOnline": 0,
+          "types": [
+            "onsite"
+          ],
+          "startTime": "20:00:00",
+          "startDateTimeUTC": "2024-09-16T20:00:00+02:00",
+          "endTime": "20:45:00",
+          "endDateTimeUTC": "2024-09-16T20:45:00+02:00",
+          "venueId": 24015,
+          "venueName": "Gratia Fitness Studio",
+          "venueLat": 41.409576100000002,
+          "venueLong": 2.1706123000000002,
+          "venueFullAddress": "Travessera de Gracia, 395, 08025 Barcelona",
+          "isPlusCheckin": 0,
+          "cityName": "Barcelona",
+          "districtName": "El Camp d'en Grassot i Gràcia Nova",
+          "bookingType": "confirmation_required",
+          "external": true,
+          "serviceType": "event",
+          "category": {
+            "id": 233,
+            "name": "Functional Training",
+            "icon": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2FcategoryIcon_80x80_icon-category-functional-training.png?alt=media"
+          },
+          "covers": [
+            {
+              "original": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Foriginal_2048x1152_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065043777&alt=media",
+              "thumbnail": "https://storage.googleapis.com/download/storage/v1/b/usc-pro-uscweb-live-media/o/de-live%2Fthumbnail_150x150_jxiwk4o3x23mv33qqm4y_1716989064900734.png?generation=1716989065246992&alt=media"
+            }
+          ]
+        }
+      }
+    ]
+  }
