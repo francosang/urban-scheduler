@@ -31,3 +31,7 @@ jobs:
         run: poetry install
       - name: Run
         run: poetry run scheduler
+        env:
+          AUTH: ${{ secrets.AUTH }} 
+          DEVICE_TOKEN: ${{ secrets.DEVICE_TOKEN }} 
+          PHPSESSID: ${{ secrets.PHPSESSID }} 
