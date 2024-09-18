@@ -8,39 +8,68 @@ ignore_classes = [
     73754911,
 ]
 
+ignore_hours = [
+    "09:30:00",
+    "20:00:00"
+]
+
 def search_classes(day):
-    # 1. Get clases
-    # 2. Filter for strenght classes
-    # 3. Filter for classes that are not booked
-    # 4. Filter for classes that have free spots
-    # 5. Filter for classes that do not start at 20:00
-    # 6. Book the class
-
-    print("Day:", day)
-
     resp = api.get_classes(day)
-
     classes = resp["data"]["classes"]
 
-    for c in classes:
-        print(c["title"])
-        print("\tId:", c["id"])
-        print("\tStart time:", c["startTime"])
-        print("\tEnd time  :", c["endDateTimeUTC"])
-        
-        if c["title"] == "Strenght" and c["freeSpots"] > 0 and c["booking"] is None and c["startTime"] != "20:00:00" and c["id"] not in ignore_classes:
-            print("\t--> BOOKING <--")
+    print_summary(classes)
+
+    filteredClases = filter_classes(classes)
+    return filteredClases
+
+def print_class(c, include_booking=False):
+    print(c["title"])
+    print("\t", "Id:", c["id"])
+    print("\t", "Start time:", c["startTime"])
+    print("\t", "End time  :", c["endTime"])
+    if include_booking:
+        print("\t", "Booking   :", c["booking"])
+
+def book(classes):
+    print("")
+
+    if not classes:
+        print("-----------   NO BOOKINGS   -----------")
+    else:
+        print("-----------     BOOKING     -----------")
+        for c in classes:
+            print_class(c)
             api.book_class(c["id"])
+
+def print_summary(classes):
+    for c in classes:
+        print_class(c, include_booking=True)
+
+def filter_classes(classes):
+    # only Strenght classes
+    filtered = filter(lambda c: c["title"] == "Strenght", classes)
+    # only classes without booking
+    filtered = filter(lambda c: c["booking"] is None, filtered)
+    # only classes not in ignore_hours
+    filtered = filter(lambda c: c["startTime"] not in ignore_hours, filtered)
+    #  only classes not in ignore_classes
+    filtered = filter(lambda c: c["id"] not in ignore_classes, filtered)
+    return list(filtered)
 
 def start():
     print("Getting classes...")
     current_date = datetime.now()
-    for i in range(14):
+    for i in range(2):
         new_date = current_date + timedelta(days=i)
         day = new_date.strftime("%Y-%m-%d")
 
-        print("**************************")
-        search_classes(day)
+        print("*********** Day:", day, "***********")
+
+        classes = search_classes(day)
+        book(classes)
+
+        print("")
+
         time.sleep(2)
 
      
