@@ -59,7 +59,7 @@ def filter_classes(classes):
 def start():
     print("Getting classes...")
     current_date = datetime.now()
-    for i in range(2):
+    for i in range(14):
         new_date = current_date + timedelta(days=i)
         day = new_date.strftime("%Y-%m-%d")
 
